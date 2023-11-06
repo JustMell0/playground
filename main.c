@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <string.h>
 
 int main (){
-  int i = 1;
-  int *ptr = &i;
-  printf("%d", *ptr);
+  char c = 'č';
+  printf("c = %c\n", c);
+  return 0;
 }
