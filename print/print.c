@@ -2,6 +2,10 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+int count (){
+  return 0;
+}
+
 void print(const char *format, ...) {
   va_list args;
   va_start(args, format);
